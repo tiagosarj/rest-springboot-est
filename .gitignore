@@ -1,0 +1,87 @@
+*.class
+
+/node_modules
+
+#ssh keys
+*.pem
+*.ppk
+
+#mobile tools for java
+.mtj.tmp/
+
+#package files
+*.jar
+*.war
+*.ear
+
+#gradle temporary files
+target/
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+LOG_FILE_IS_UNDEFINED*
+
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.m2
+
+
+### STS ###
+.apt_generated
+.springBeans
+.sts4-cache
+
+
+### Eclipse ###
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+.tern-project
+.pmd
+.ruleset
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+
+### OS X ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+sci-servicos/src/main/resources/META-INF/persistence.xml
